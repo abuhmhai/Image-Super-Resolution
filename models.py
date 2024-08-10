@@ -10,7 +10,6 @@ import keras.optimizers as optimizers
 
 from advanced import HistoryCheckpoint, SubPixelUpscaling, non_local_block, TensorBoardBatch
 import img_utils
-
 import numpy as np
 import os
 import time
