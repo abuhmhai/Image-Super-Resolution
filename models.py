@@ -1,10 +1,10 @@
 from __future__ import print_function, division
-
-from keras.models import Model
-from keras.layers import Concatenate, Add, Average, Input, Dense, Flatten, BatchNormalization, Activation, LeakyReLU
-from keras.layers.convolutional import Convolution2D, MaxPooling2D, UpSampling2D, Convolution2DTranspose
+import tensorflow 
+from tensorflow.keras.models import Model
+from tensorflow.keras.layers import Concatenate, Add, Average, Input, Dense, Flatten, BatchNormalization, Activation, LeakyReLU
+from tensorflow.keras.layers import Conv2D, MaxPooling2D, UpSampling2D, Conv2DTranspose
 from keras import backend as K
-from keras.utils.np_utils import to_categorical
+from tensorflow.keras.utils import to_categorical
 import keras.callbacks as callbacks
 import keras.optimizers as optimizers
 
